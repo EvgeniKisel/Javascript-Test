@@ -1,0 +1,130 @@
+body {
+    font-family: 'Inter', serif;
+    color: rgb(32, 32, 32);
+}
+
+.container {
+    margin: 0 300px;
+    height: 100%;
+}
+
+.header__inner {
+    background-color: #ffd35b;
+    height: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.logo a {
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(32, 32, 32);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 50px 0 25px;
+}
+
+.main__title {
+    font-size: 36px;
+    margin: 50px 0;
+}
+
+.main__welcome-text {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.main__level-selection-inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.level-container {
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    transition: box-shadow .5s ease;
+}
+
+.level-container:hover {
+    box-shadow: #ffd35b 0px 5px 25px;
+}
+
+.level-container img {
+    width: 300px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    filter: blur(6px) grayscale(100%);
+    transition: filter .5s ease;
+}
+
+.level-container:hover img {
+    filter: blur(0);
+}
+
+.level-container h3 {
+    color: #fff;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.35);
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    padding-top: 26px;
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+
+.level-container:hover h3 {
+    color: rgb(32, 32, 32);
+    background-color: #ffd35b;
+}
+
+.main__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.main__list-item a,
+.main__list-item a:visited {
+    font-size: 20px;
+    color: rgb(32, 32, 32);
+}
+
+.main__list-item a:hover {
+    border-bottom: 3px solid #ffd35b;
+}
+
+.footer {
+    background-color: #ffd35b;
+    height: 100px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.footer__text a {
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+    font-weight: 700;
+}
