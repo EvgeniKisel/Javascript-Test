@@ -1,6 +1,7 @@
 body {
-    font-family: 'Inter', serif;
+    font-family: 'Inter', sans-serif;
     color: rgb(32, 32, 32);
+    box-sizing: border-box;
 }
 
 :root {
