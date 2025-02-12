@@ -141,7 +141,7 @@ body {
     }
     .level-container {
         margin: 0 auto;
-        width: calc(var(--index) * 25);
+        width: calc(var(--index) * 22);
         height: calc(var(--index) * 20);
     }
 }
