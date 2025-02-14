@@ -229,6 +229,11 @@ body {
     .result-score {
         font-size: 18px;
     }
+    .main__test-answers-block {
+        gap: 20px 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 480px) {
@@ -268,5 +273,8 @@ body {
         height: 40px;
         font-size: 14px;
         padding-top: 15px;
+    }
+    .result-score {
+        font-size: 16px;
     }
 }
